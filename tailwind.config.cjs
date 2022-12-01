@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./components/**/*.{vue,js,ts,md}",
@@ -9,8 +8,8 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
-      serif: ["Cormorant", "serif"],
-      mono: ["Roboto Mono", "monospace"],
+      serif: ["serif"],
+      mono: ["monospace"],
     },
   },
 };
